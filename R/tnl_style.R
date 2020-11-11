@@ -17,7 +17,7 @@ tnl_style <- function() {
     legend.margin = margin(0, 0, 1.5, 0),
     legend.text = ggplot2::element_text(
       family = font,
-      size = 8,
+      size = 12,
       color = "#24201f"
     ),
 
@@ -25,7 +25,7 @@ tnl_style <- function() {
     axis.title = ggplot2::element_blank(),
     axis.text = ggplot2::element_text(
       family = font,
-      size = 10,
+      size = 20,
       color = "#24201f"
     ),
     axis.text.x = ggplot2::element_text(margin = ggplot2::margin(3, b = 10)),
@@ -43,7 +43,7 @@ tnl_style <- function() {
     strip.background = ggplot2::element_rect(fill = "white"),
     strip.text = ggplot2::element_text(
       family = font_medium,
-      size = 8,
+      size = 12,
       hjust = 0
     ),
 
