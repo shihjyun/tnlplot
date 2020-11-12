@@ -28,7 +28,7 @@ tnl_style <- function() {
       size = 20,
       color = "#24201f"
     ),
-    axis.text.x = ggplot2::element_text(margin = ggplot2::margin(3, b = 10)),
+    axis.text.x = ggplot2::element_text(margin = ggplot2::margin(t = 3)),
     axis.ticks = ggplot2::element_blank(),
 
     #grid lines
@@ -46,8 +46,5 @@ tnl_style <- function() {
       size = 12,
       hjust = 0
     ),
-
-    #plot margin
-    plot.margin = grid::unit(c(0.5,0.5,0.5,0.5), "cm")
   )
 }
